@@ -14,15 +14,18 @@ body {
 }
 
 .input input {
+  border: 2px solid #e34b90;
   width: 100%;
   font-size: 30px;
   z-index: 2;
   padding-left: 5px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif3;
+    sans-serif;
 }
-
+.input input:focus{
+  border: 2px solid #e34b90 !important;
+}
 .input label {
   position: absolute;
   left: 7px;

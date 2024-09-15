@@ -1,4 +1,3 @@
-import cities from "./cities.json";
 const Input = ({handleChange, hint}) => {
   return (
     <div className="input">
