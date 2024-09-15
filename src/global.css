@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -24,7 +29,8 @@ body {
     sans-serif;
 }
 .input input:focus{
-  border: 2px solid #e34b90 !important;
+  /* border: 2px solid #e34b90 !important; */
+  outline: none;
 }
 .input label {
   position: absolute;
